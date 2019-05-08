@@ -19,7 +19,7 @@ class Api::V1::LessonsController < ApplicationController
 
   def update
     @lesson = Lesson.find(params[:id])
-    @lesson.update(params.permit(:likes))
+    @lesson.update(params.permit(:likes, :code, :video))
   end
 
   private
