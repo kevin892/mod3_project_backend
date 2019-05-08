@@ -19,7 +19,7 @@ modFive= Mod.find(20)
 Lesson.create(
   name: "Hashketball Review",
   instructor: "Tim",
-  mod_id: modOne,
+  mod: modOne,
   video: "https://www.youtube.com/watch?v=eyzeBCZQze0&feature=youtu.be",
   code: "https://github.com/learn-co-students/denver-web-career-031119/tree/master/01-hashketball-review",
   likes: 0)
@@ -47,3 +47,68 @@ Lesson.create(
   video: "https://www.youtube.com/watch?v=M4o5AfDjTAE&feature=youtu.be",
   code: "https://github.com/learn-co-students/denver-web-career-031119/tree/master/03-ruby-oo",
   likes: 0)
+
+Lesson.create(
+  name: "Intro to SQL",
+  instructor: "Kyle",
+  mod: modOne,
+  video: "https://www.youtube.com/watch?v=Q9vYhC-u3SI&feature=youtu.be",
+  code: "https://github.com/learn-co-students/denver-web-career-031119/tree/master/06-intro-to-sql",
+  likes: 0)
+
+Lesson.create(
+  name: "SQL Joins",
+  instructor: "Kyle",
+  mod: modOne,
+  video: "https://www.youtube.com/watch?v=vMDjfey6WFM&feature=youtu.be",
+  code: "",
+  likes: 0)
+
+Lesson.create(
+  name: "Boating Review",
+  instructor: "Kyle",
+  mod: modOne,
+  video: "https://www.youtube.com/watch?v=hi6CjPSd8mI&feature=youtu.be",
+  code: "https://github.com/learn-co-students/denver-web-career-031119/tree/master/07-boating-review",
+  likes: 0)
+
+Lesson.create(
+  name: "ORM'S Part 1",
+  instructor: "Kyle",
+  mod: modOne,
+  video: "https://www.youtube.com/watch?v=YGzGbgr2AcI&feature=youtu.be",
+  code: "",
+  likes: 0)
+
+Lesson.create(
+  name: "ORM'S Part 2",
+  instructor: "Kyle",
+  mod: modOne,
+  video: "https://www.youtube.com/watch?v=rlzX92tqbeE&feature=youtu.be",
+  code: "",
+  likes: 0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Lesson.create(
+    name: "OO Relationships (many to many)",
+    instructor: "Tim",
+    mod: modOne,
+    video: "https://www.youtube.com/watch?v=ybh21C-RTzo&feature=youtu.be",
+    code: "https://github.com/learn-co-students/denver-web-career-031119/tree/master/05-many-to-many",
+    likes: 0)
