@@ -7,15 +7,15 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Lesson.destroy_all
-Mod.destroy_all
-#
-# modOne = Mod.create(name: 1)
-# modTwo = Mod.create(name: 2)
-# modThree = Mod.create(name: 3)
-# modFour = Mod.create(name: 4)
-# modFive= Mod.create(name: 5)
-#
+# Lesson.destroy_all
+
+
+modOne = Mod.create(name: 1)
+modTwo = Mod.create(name: 2)
+modThree = Mod.create(name: 3)
+modFour = Mod.create(name: 4)
+modFive= Mod.create(name: 5)
+
 # Lesson.create(
 #   name: "Hashketball Review",
 #   instructor: "Tim",
