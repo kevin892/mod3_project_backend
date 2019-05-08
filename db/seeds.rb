@@ -19,7 +19,7 @@ modFive= Mod.create(name: 5)
 Lesson.create(
   name: "Hashketball Review",
   instructor: "Tim",
-  mod: modOne,
+  mod_id: 1,
   video: "https://www.youtube.com/watch?v=eyzeBCZQze0&feature=youtu.be",
   code: "https://github.com/learn-co-students/denver-web-career-031119/tree/master/01-hashketball-review",
   likes: 0)
