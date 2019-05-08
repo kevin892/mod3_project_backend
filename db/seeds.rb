@@ -18,7 +18,7 @@ modFive= Mod.create(name: 5)
 Lesson.create(
   name: "Hashketball Review",
   instructor: "Tim",
-  mod_id: 1,
+  mod: modOne,
   video: "https://www.youtube.com/watch?v=eyzeBCZQze0&feature=youtu.be",
   code: "https://github.com/learn-co-students/denver-web-career-031119/tree/master/01-hashketball-review",
   likes: 0)
@@ -26,7 +26,7 @@ Lesson.create(
 Lesson.create(
   name: "Hashes and the Internet",
   instructor: "Tim",
-  mod_id: 1,
+  mod: modOne,
   video: "https://www.youtube.com/watch?v=cYrP70WauJg&feature=youtu.be",
   code: "https://github.com/learn-co-students/denver-web-career-031119/tree/master/02-hashes-and-the-internet",
   likes: 0)
@@ -34,7 +34,7 @@ Lesson.create(
 Lesson.create(
   name: "OO Relationships (one to many)",
   instructor: "Tim",
-  mod_id: 1,
+  mod: modOne,
   video: "https://www.youtube.com/watch?v=wCCQNIuxyDE&feature=youtu.be",
   code: "https://github.com/learn-co-students/denver-web-career-031119/tree/master/04-one-to-many",
   likes: 0)
@@ -44,7 +44,7 @@ Lesson.create(
 Lesson.create(
   name: "Intro to OO - Ruby",
   instructor: "Tim",
-  mod_id: 1,
+  mod: modOne,
   video: "https://www.youtube.com/watch?v=M4o5AfDjTAE&feature=youtu.be",
   code: "https://github.com/learn-co-students/denver-web-career-031119/tree/master/03-ruby-oo",
   likes: 0)
