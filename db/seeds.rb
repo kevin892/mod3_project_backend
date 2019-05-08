@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+modOne = Mod.create(name: 1)
+modTwo = Mod.create(name: 2)
+modThree = Mod.create(name: 3)
+modFour = Mod.create(name: 4)
+modFive= Mod.create(name: 5)
+
+Lesson.create(name: "Rails", instructor: "Damon", mod: modOne, likes: 0)
