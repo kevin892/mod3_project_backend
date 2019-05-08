@@ -12,9 +12,6 @@ class Api::V1::LessonsController < ApplicationController
     @lesson.save
   end
 
-
-
-
   def destroy
     @lesson.delete
   end
@@ -23,11 +20,6 @@ class Api::V1::LessonsController < ApplicationController
   def update
     @lesson = Lesson.find(params[:id])
     @lesson.update(params.permit(:likes))
-    # if @lesson.save
-    #   render json: @lesson, status: :accepted
-    # else
-    #   render json: { errors: @lesson.errors.full_messages }
-    # end
   end
 
   private

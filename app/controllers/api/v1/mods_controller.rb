@@ -1,5 +1,5 @@
 class Api::V1::ModsController < ApplicationController
-  before_action :find_mod, only: %i[:update destroy show]
+  before_action :find_mod, only: %i[destroy show]
   def index
     @mods = Mod.all
     render json: @mods
@@ -7,15 +7,6 @@ class Api::V1::ModsController < ApplicationController
 
   def show
     render json: @mod
-  end
-
-  def update
-    @mod.update(mod_params)
-    if @mod.save
-      render json: @mod, status: :accepted
-    else
-      render json: { errors: @mod.errors.full_messages }, status: :unprocessible_entity
-    end
   end
 
   private
