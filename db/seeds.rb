@@ -371,3 +371,11 @@ Lesson.create(
   video: "https://www.youtube.com/watch?v=JvInC_JFf28&feature=youtu.be",
   code: "",
   likes: 0)
+
+Lesson.create(
+  name: "API Keys",
+  instructor: "Kyle",
+  mod: modThree,
+  video: "https://www.youtube.com/watch?v=UKe9-Zo7tyM&feature=youtu.be",
+  code: "",
+  likes: 0)
