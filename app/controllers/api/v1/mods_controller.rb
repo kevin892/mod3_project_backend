@@ -1,7 +1,7 @@
 class Api::V1::ModsController < ApplicationController
   before_action :find_mod, only: %i[destroy show]
   def index
-    @mods = Mod.all
+    @mods = Mod.order(likes: :DESC)
     render json: @mods
   end
 
