@@ -1,4 +1,5 @@
 class ModSerializer < ActiveModel::Serializer
   has_many :lessons
-  attributes :name
+  has_many :standards
+  attributes :id, :name
 end

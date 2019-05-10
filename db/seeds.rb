@@ -10,11 +10,18 @@
 Lesson.destroy_all
 
 
-modOne = Mod.find(16)
-modTwo = Mod.find(17)
-modThree = Mod.find(18)
-modFour = Mod.find(19)
-modFive= Mod.find(20)
+
+modOne = Mod.create(name: 1)
+modTwo = Mod.create(name: 2)
+modThree = Mod.create(name: 3)
+modFour = Mod.create(name: 4)
+modFive= Mod.create(name: 5)
+
+Standard.create(name:"Learn Ruby And Stuff", mod: modOne)
+Standard.create(name:"Learn Hashketball", mod: modOne)
+Standard.create(name:"Learn Sinatra", mod: modTwo)
+Standard.create(name:"Learn Rails", mod: modTwo)
+Standard.create(name:"Learn JavaScript", mod: modThree)
 
 # Mod 1
 Lesson.create(
