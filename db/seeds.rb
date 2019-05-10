@@ -8,29 +8,72 @@
 
 
 Lesson.destroy_all
+Standard.destroy_all
 
 
 
-modOne = Mod.create(name: 1)
-modTwo = Mod.create(name: 2)
-modThree = Mod.create(name: 3)
-modFour = Mod.create(name: 4)
-modFive= Mod.create(name: 5)
+modOne = Mod.find(1)
+modTwo = Mod.find(2)
+modThree = Mod.find(3)
+modFour = Mod.find(4)
+modFive= Mod.find(5)
 
-Standard.create(name:"Learn Ruby And Stuff", mod: modOne)
-Standard.create(name:"Learn Hashketball", mod: modOne)
-Standard.create(name:"Learn Sinatra", mod: modTwo)
-Standard.create(name:"Learn Rails", mod: modTwo)
-Standard.create(name:"Learn JavaScript", mod: modThree)
+Standard.create(name:"Demonstrate basic programming proficiency in Ruby", mod: modOne)
+Standard.create(name:"Iterate over collections using built-in methods", mod: modOne)
+Standard.create(name:"Build classes and objects using Ruby", mod: modOne)
+Standard.create(name:"Model domains using ERDs", mod: modOne)
+Standard.create(name:"Query databases using SQL", mod: modOne)
+Standard.create(name:"Build Ruby applications that persist data", mod: modOne)
+Standard.create(name:"Model relationships using Ruby", mod: modOne)
+Standard.create(name:"Model relationships using ActiveRecord", mod: modOne)
+Standard.create(name:"Integrate API responses in Ruby with `RestClient`", mod: modOne)
+
+
+
+
+
+Standard.create(name:"Distinguish between the web and the internet", mod: modTwo)
+Standard.create(name:"Describe the HTTP request-response cycle", mod: modTwo)
+Standard.create(name:"Create web servers", mod: modTwo)
+Standard.create(name:"Explain the MVC architecture pattern", mod: modTwo)
+Standard.create(name:"Create simple web apps using the MVC architecture pattern", mod: modTwo)
+Standard.create(name:"Create simple RESTful applications using Sinatra", mod: modTwo)
+Standard.create(name:"Create complex RESTful applications with related models using Sinatra", mod: modTwo)
+Standard.create(name:"Create simple RESTful applications using Rails", mod: modTwo)
+Standard.create(name:"Create complex RESTful applications with related models using Rails", mod: modTwo)
+Standard.create(name:"Implement form validations using Rails", mod: modTwo)
+Standard.create(name:"Distinguish between authentication and authorization", mod: modTwo)
+Standard.create(name:"Define key auth terms", mod: modTwo)
+Standard.create(name:"Implement auth in Rails apps", mod: modTwo)
+
+
+
+Standard.create(name:"Identify potential components", mod: modFour)
+Standard.create(name:"Explain how the virtual DOM works", mod: modFour)
+Standard.create(name:"Explain the benefits of `create-react-app`", mod: modFour)
+Standard.create(name:"Differentiate between props and state", mod: modFour)
+Standard.create(name:"Build React components", mod: modFour)
+Standard.create(name:"Build React component hierarchies", mod: modFour)
+Standard.create(name:"Build React components with reactive state", mod: modFour)
+Standard.create(name:"Differentiate between presentational and container components", mod: modFour)
+Standard.create(name:"Build controlled forms using React", mod: modFour)
+Standard.create(name:"Build React components that interact with APIs", mod: modFour)
+Standard.create(name:"Describe how webpack works", mod: modFour)
+Standard.create(name:"Build React apps using React Router", mod: modFour)
+Standard.create(name:"Build React apps that authenticate users and store personalized data", mod: modFour)
+Standard.create(name:"Build React apps that have protected routes", mod: modFour)
+Standard.create(name:"Implement client-side state management", mod: modFour)
+
+
+
+
+
+
+
+
+
 
 # Mod 1
-Lesson.create(
-  name: "Mod 3 Context",
-  instructor: "Kyle",
-  mod: modOne,
-  video: "https://www.youtube.com/watch?v=QKR52K5jXF8&feature=youtu.be",
-  code: "",
-  likes: 0)
 
 Lesson.create(
   name: "Hashketball Review",
