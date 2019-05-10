@@ -12,11 +12,11 @@ Standard.destroy_all
 
 
 
-modOne = Mod.find(1)
-modTwo = Mod.find(2)
-modThree = Mod.find(3)
-modFour = Mod.find(4)
-modFive= Mod.find(5)
+modOne = Mod.find(16)
+modTwo = Mod.find(17)
+modThree = Mod.find(18)
+modFour = Mod.find(19)
+modFive= Mod.find(20)
 
 Standard.create(name:"Demonstrate basic programming proficiency in Ruby", mod: modOne)
 Standard.create(name:"Iterate over collections using built-in methods", mod: modOne)
